@@ -111,8 +111,17 @@ header {
   padding-right: 1rem;
 } 
 
+#about-me,
+#portfolio,
+#experience {
+  min-height: 100vh;
+}
+
 #landing-section {
   min-height: calc(100vh - 108px);
+
+  display: grid;
+  place-items: center;
   
   border: none;
 }
@@ -122,8 +131,6 @@ header {
   text-transform: capitalize;
   text-align: start;
   color: white;
-  
-  padding: 3rem 0;
 }
 
 #landing-section .short-intro {
@@ -132,9 +139,10 @@ header {
 
   line-height: 2;
   
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: white;
 }
+
 
 .footer {
   background-color: rgb(17, 17, 56);
