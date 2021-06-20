@@ -42,7 +42,7 @@ a {
 
 section, 
 header {
-  border-top: 4px solid darkblue;
+  border-top: 4px solid rgb(17, 17, 56);
   padding: 20px;
 }
 
@@ -55,34 +55,55 @@ header {
   height: 100px;
 }
 
+.black-text {
+  color: black;
+}
+
+.underlined-text {
+  text-decoration: underline black;
+}
+
 .same-background {
   background-color: #76ddd3;
 }
 
 .main-header {
   display: grid;
-
+  
   grid-template-columns: 1fr auto;
 }
 
 .logo {
   font-size: 1.5rem;
-
+  
   color: white;
 }
 
 .nav-item {
   margin: 10px;
+  padding: 10px;
+
+  text-align: center;
+  
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nav-item a {
+  font-weight: bold;
+  
+  color: #76ddd3;
+
 }
 
 .three-column-grid {
   display: grid;
-
+  
   grid-template-columns: repeat(3, 1fr);
 }
 
- .center {  
-  max-width: 60ch;
+.center {  
+  max-width: 65ch;
   
   margin-left: auto;
   margin-right: auto;
@@ -92,24 +113,30 @@ header {
 
 #landing-section {
   min-height: calc(100vh - 108px);
-
+  
   border: none;
 }
 
 #landing-section .section-title {
   font-size: 6rem;
   text-transform: capitalize;
+  text-align: start;
   color: white;
-
-  padding: 4rem 0;
+  
+  padding: 3rem 0;
 }
 
 #landing-section .short-intro {
-  text-align: center;
+  text-align: justify;
+  font-weight: bold;
 
-  line-height: 1.5;
-
-  font-size: 1rem;
+  line-height: 2;
+  
+  font-size: 1.5rem;
   color: white;
 }
 
+.footer {
+  background-color: rgb(17, 17, 56);
+  color: white;
+}
