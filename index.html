@@ -8,76 +8,84 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header same-background">
       <h1 class="logo">Viktorija Zaboraite</h1>
       <nav class="page-navigation">
-        <ul>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#experience">Experience</a></li>
+        <ul class="nav three-column-grid">
+          <li class="nav-item"><a href="#about-me">About Me</a></li>
+          <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a href="#experience">Experience</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="landing-section">
-        <h2 class="section-title">Hiring a full-stack developer?</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
-          laudantium sequi? Sit iusto autem animi corrupti et, officia non
-          aliquam nostrum fugit aliquid explicabo iste adipisci expedita rem,
-          dolores laboriosam?
-        </p>
+      <section id="landing-section" class="same-background">
+        <div class="center">
+          <h2 class="section-title">Hiring a full-stack developer?</h2>
+          <p class="short-intro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+            laudantium sequi? Sit iusto autem animi corrupti et, officia non
+            aliquam nostrum fugit aliquid explicabo iste adipisci expedita rem,
+            dolores laboriosam?
+          </p>
+        </div>
       </section>
       <section id="about-me">
-        <h2 class="section-title">About me section</h2>
-        <article>
-          <h3 class="section-subtitle">Introduction</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
-            possimus, atque, laborum quam consequatur est quas magni aspernatur
-            porro beatae fugiat cupiditate vitae! Veniam libero, nam aliquam
-            dolorem delectus sapiente.
-          </p>
-        </article>
-        <article>
-          <h3 class="section-subtitle">Technical skills</h3>
-          <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <li>Skill 4</li>
-            <li>Skill 5</li>
-            <li>Skill 6</li>
-          </ul>
-        </article>
+        <div class="center">
+          <h2 class="section-title">About me</h2>
+          <article>
+            <h3 class="section-subtitle">Introduction</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. A
+              possimus, atque, laborum quam consequatur est quas magni
+              aspernatur porro beatae fugiat cupiditate vitae! Veniam libero,
+              nam aliquam dolorem delectus sapiente.
+            </p>
+          </article>
+          <article class="two-column-grid">
+            <h3 class="section-subtitle">Technical skills</h3>
+            <ul>
+              <li>Skill 1</li>
+              <li>Skill 2</li>
+              <li>Skill 3</li>
+              <li>Skill 4</li>
+              <li>Skill 5</li>
+              <li>Skill 6</li>
+            </ul>
+          </article>
+        </div>
       </section>
       <section id="portfolio">
-        <h2 class="section-title">Portfolio section</h2>
-        <!-- TODO: CREATE PORTFOLIO CARDS -->
+        <h2 class="section-title">Portfolio</h2>
+        <div class="three-column-grid">
+          <!-- TODO: CREATE PORTFOLIO CARDS -->
+        </div>
       </section>
       <section id="experience">
-        <h2 class="section-title">Experience section</h2>
-        <article>
-          <h3 class="section-subtitle">Job Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit, tempora magnam doloribus libero incidunt similique
-            exercitationem laboriosam dolorum sed voluptates cum, voluptatem
-            nemo unde, rem deleniti delectus possimus nihil nulla!
-          </p>
-        </article>
-        <article>
-          <h3 class="section-subtitle">Job Title</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-            dolores et, iure tenetur alias commodi, libero dolore consequuntur,
-            blanditiis vel nihil sequi nisi ullam saepe nostrum. Repudiandae
-            eius sit deleniti?
-          </p>
-        </article>
+        <div class="center">
+          <h2 class="section-title">Experience</h2>
+          <article>
+            <h3 class="section-subtitle">Job Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit, tempora magnam doloribus libero incidunt similique
+              exercitationem laboriosam dolorum sed voluptates cum, voluptatem
+              nemo unde, rem deleniti delectus possimus nihil nulla!
+            </p>
+          </article>
+          <article>
+            <h3 class="section-subtitle">Job Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos dolores et, iure tenetur alias commodi, libero dolore
+              consequuntur, blanditiis vel nihil sequi nisi ullam saepe nostrum.
+              Repudiandae eius sit deleniti?
+            </p>
+          </article>
+        </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer same-background">
       <p>&#169; Viktorija Zaboraite</p>
     </footer>
   </body>
